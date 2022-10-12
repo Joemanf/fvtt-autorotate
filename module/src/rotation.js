@@ -117,7 +117,6 @@ async function rotateViaRotation(deltaX, deltaY, document, update){
     // Convert our delta to an angle, then adjust for the fact that the
     // rotational perspective in Foundry is shifted 90 degrees
     // counterclockwise.  
-    console.log('update.rotation before'. update.rotation)
     console.log('deltaX and deltaY', deltaX, deltaY)
     console.log('core.pointToAngle(deltaX, deltaY) + 90', core.pointToAngle(deltaX, deltaY) + 90)
     console.log('core.pointToAngle(deltaX, deltaY) - 90', core.pointToAngle(deltaX, deltaY) - 90)
