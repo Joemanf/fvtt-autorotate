@@ -1,6 +1,6 @@
 {
-  "id": "joemanf-autorotate",
-  "name": "joemanf-autorotate",
+  "id": "autorotate",
+  "name": "autorotate",
   "title": "Joemanf Auto-Rotate",
   "description": "Allows tokens to automatically rotate based on movement, targeting, etc.",
   "authors": [{"name": "Varriount"}, {"name": "Joemanf"}],
