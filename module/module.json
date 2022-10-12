@@ -29,6 +29,6 @@
   "changelog": "https://github.com/Varriount/fvtt-autorotate/releases",
   "url": "https://github.com/Joemanf/fvtt-autorotate",
 
-  "manifest": "https://github.com/Joemanf/fvtt-autorotate/releases/download/test/module.zip",
-  "download": "https://github.com/Joemanf/fvtt-autorotate/releases/download/test/module.zip"
+  "manifest": "https://github.com/Joemanf/fvtt-autorotate/releases/download/test2/module.json",
+  "download": "https://github.com/Joemanf/fvtt-autorotate/releases/download/test2/module.zip"
 }
