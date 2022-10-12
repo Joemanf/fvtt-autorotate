@@ -118,7 +118,7 @@ async function rotateViaRotation(deltaX, deltaY, document, update){
     // rotational perspective in Foundry is shifted 90 degrees
     // counterclockwise.  
     update.rotation = core.normalizeDegrees(
-        core.pointToAngle(deltaX, deltaY) - 90
+        core.pointToAngle(deltaX, deltaY) + 90
     );
 }
 
