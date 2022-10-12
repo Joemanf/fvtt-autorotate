@@ -121,9 +121,8 @@ async function rotateViaRotation(deltaX, deltaY, document, update){
     console.log('core.pointToAngle(deltaX, deltaY) + 90', core.pointToAngle(deltaX, deltaY) + 90)
     console.log('core.pointToAngle(deltaX, deltaY) - 90', core.pointToAngle(deltaX, deltaY) - 90)
     update.rotation = core.normalizeDegrees(
-        core.pointToAngle(deltaX, deltaY) + 90
+        core.pointToAngle(deltaX, deltaY) - 90
     );
-    console.log('update.rotation after'. update.rotation)
 }
 
 
@@ -161,6 +160,10 @@ async function rotateTokenOnPreUpdate(token_document, change, options, userId) {
     if (newX === token_data.x && newY === token_data.y) {
         return;
     }
+
+    console.log('token_data.x', token_data.x)
+    console.log('token_data.y', token_data.y)
+    console.log('change', change)
 
     const deltaX = newX - token_data.x;
     const deltaY = newY - token_data.y;
